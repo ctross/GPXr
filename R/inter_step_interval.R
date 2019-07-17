@@ -4,6 +4,6 @@
 #' @return A vector of time differences
 
 inter_step_interval <- function(t){
-  diff <- c(NA, t[2:length(t)] - t[1:(length(t)-1)] ) # NA is becuase cant calc a diff for first poit, otherwise...
+  diff <- c(NA, t[2:length(t)] - t[1:(length(t)-1)] )
   return (diff)
 }
