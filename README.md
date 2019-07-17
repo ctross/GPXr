@@ -1,4 +1,4 @@
-# GPXr
+GPXr
 ========
 This is an R package for processing GPX data file for statistical analysis
 
